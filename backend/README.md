@@ -55,7 +55,7 @@ Send a GET request to `/api/task/status` with the `status` query parameter to re
 
 Example:
 
-curl -X GET 'http://localhost:3001/api/task/status?status=To%20Do'
+curl -X GET 'http://localhost:3001/api/task?status=To%20Do'
 
 
 ### Create a new task
