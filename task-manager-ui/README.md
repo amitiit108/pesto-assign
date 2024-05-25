@@ -9,27 +9,23 @@ Our frontend is built using React, a popular JavaScript library for building use
 ## Folder Structure
 
 frontend/
-│
 ├── public/
-│ ├── index.html
-│ └── ...
-│
+│   ├── index.html
+│   └── ...
 ├── src/
-│ ├── components/
-│ │ ├── TaskForm.js
-│ │ ├── TaskList.js
-│ │ ├── FilterTasks.js
-│ │ └── ...
-│ │
-│ ├── services/
-│ │ ├── api.js
-│ │ └── ...
-│ │
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-│
+│   ├── components/
+│   │   ├── TaskForm.js
+│   │   ├── TaskList.js
+│   │   ├── FilterTasks.js
+│   │   └── ...
+│   ├── services/
+│   │   ├── api.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
 └── package.json
+
 
 
 
