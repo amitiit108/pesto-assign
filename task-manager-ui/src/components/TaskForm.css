@@ -1,0 +1,38 @@
+/* Styles for the task form */
+.task-form {
+  /* Flex container */
+  display: flex;
+  flex-direction: column;
+  /* Limiting width for better layout */
+  max-width: 400px;
+  margin: 0 auto; /* Centering the form horizontally */
+}
+
+/* Styles for input fields and select dropdowns */
+.task-form input,
+.task-form select {
+  /* Spacing between elements */
+  margin-bottom: 10px;
+  /* Basic input styling */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for buttons */
+.task-form button {
+  /* Button styling */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Blue background color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.task-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
